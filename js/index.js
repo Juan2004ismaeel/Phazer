@@ -156,7 +156,6 @@ function collectStar (player, star)
     scoreText.setText('Score: ' + score);
 
     if (stars.countActive(true) === 0)
-    8
     {
         stars.children.iterate(function (child) {
 
